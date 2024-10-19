@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100 text-gray-900 font-sans;
+}
+
+.bottom-nav {
+  @apply fixed bottom-0 left-0 right-0 bg-white shadow-lg;
+}
+
+.bottom-nav-item {
+  @apply flex flex-col items-center justify-center p-2 text-gray-600;
+}
+
+.bottom-nav-item.active {
+  @apply text-purple-600;
+}
